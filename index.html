@@ -376,9 +376,9 @@ function calcular() {
       Falta: ${faltando.toFixed(2)} pontos<br>
       Nota semifinal (P1+P2+T.I): ${notaSemifinal.toFixed(2)}<br>
       <br>
-      ${prNecessaria <= 3 ? 'Você precisa de uma nota baixa, vai dar tudo certo! 💪' : 
-        prNecessaria <= 5 ? 'Vai precisar estudar um pouco, mas é totalmente possível! 📚' :
-        'Vai exigir bastante dedicação, mas acredite em você! 🔥'}
+      ${prNecessaria <= 3 ? 'Dificuldade: Fácil' : 
+        prNecessaria <= 5 ? 'Dificuldade: Média // Normal' :
+        'Dificuldade: Díficil'}
     </div>
   `;
 }
